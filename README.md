@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving dangling pointers.  Modifying a vector after obtaining a raw pointer to its elements can lead to undefined behavior if the vector is later reallocated. The solution shows how to avoid this by using safe methods to interact with the vector's data.
